@@ -13,7 +13,7 @@ function Hero() {
             <p className="mb-8 text-2xl leading-relaxed text-purple-600">Web Developer & Software Engineer</p>
             <div className="flex justify-center">
                 <button className="inline-flex text-white bg-purple-600 border-0 py-2 px-6 font-bold focus:outline-none hover:bg-purple-600 rounded text-lg">Download CV</button>
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">View my projects</button>
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Contact me</button>
             </div>
             </div>
         </div>
