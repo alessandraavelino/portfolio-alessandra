@@ -6,7 +6,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <header className="text-white fixed top-0 w-full bg-gray-700 z-10">
+      <header className="text-white w-full bg-gray-700 z-10">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <MenuMobile isOpen={isOpen} setIsOpen={setIsOpen} />
           <a className="flex title-font items-center font-bold text-white mb-4 md:mb-0">

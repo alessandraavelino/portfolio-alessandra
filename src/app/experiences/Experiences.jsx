@@ -22,9 +22,9 @@ function Experiences() {
                 <TbLetterR />
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
+                  <a href="https://reconheceropadrao.pt/" target="_blank" className="font-semibold title-font text-lg text-gray-900 mb-1  hover:text-purple-600 tracking-wider">
                     2024.1 - Reconhecer o Padrão (Tech Lead)
-                  </h2>
+                  </a>
                   <p className="leading-relaxed">
                     Development and maintenance of the digital magazine website using WordPress
                   </p>
@@ -38,9 +38,9 @@ function Experiences() {
                 <FaCar />
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
+                  <a href="https://imperioprotecaoveicular.com.br/" target="_blank" className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider hover:text-purple-600">
                     2023.10 - Império Brasil Proteção Veicular (Freelancer)
-                  </h2>
+                  </a>
                   <p className="leading-relaxed">
                     Handling automation in the billing process, website development and creation of artwork for social networks
                   </p>
@@ -54,9 +54,9 @@ function Experiences() {
                 <IoCode />
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
+                  <a href="https://landix.com.br/" target="_blank" className="font-semibold title-font text-lg hover:text-purple-600 text-gray-900 mb-1 tracking-wider">
                     2022.9 - Landix Sistemas (Internship)
-                  </h2>
+                  </a>
                   <p className="leading-relaxed">
                   I worked on the migration of a legacy system to the cloud (AWS), using the most modern web technologies. Furthermore, all work was based on the agile Scrum methodology
                   </p>
@@ -70,9 +70,9 @@ function Experiences() {
                 <FaCookie />
                 </div>
                 <div className="flex-grow pl-4">
-                  <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
+                  <a href="https://biscoitos3demaio.com/" target="_blank" className="font- hover:text-purple-600 title-font text-lg text-gray-900 mb-1 tracking-wider">
                     2020.8 - Indústria Alimentícia 3 de Maio (Young Apprentice)
-                  </h2>
+                  </a>
                   <p className="leading-relaxed">
                     I worked in production, handling
                     food and cashier sector. Furthermore, I acquired great skills and
