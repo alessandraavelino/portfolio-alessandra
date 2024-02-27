@@ -10,10 +10,10 @@ const HeaderMobile = ({ logo }) => {
   };
 
   return (
-    <div className="md:hidden z-10 bg-gray-700 py-1">
+    <div className="md:hidden z-10 bg-gray-700 py-2">
       <button
         onClick={toggleMenu}
-        className="absolute top-3 left-10 m-4 border-2 rounded p-2  text-white"
+        className="absolute ml-1 top-3 left-10 m-4 border-2 rounded p-2  text-white"
       >
         {isOpen ? (
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,10 +45,10 @@ const HeaderMobile = ({ logo }) => {
               />
             </svg>
           </button>
-          <div className="container mx-auto flex flex-col items-center">
+          <div className="container mx-auto flex flex-col pl-10 items-center">
           <a className="flex title-font items-center font-bold text-white mb-4 md:mb-0">
             
-            <span className="text-md pt-10 top-0">Alessandra </span>
+            <span className="text-xl pt-10">Alessandra </span>
           </a>
             <nav className={`font-semibold flex flex-col items-center text-base justify-center ${isOpen ? '' : 'hidden'}`}>
             <a href="#home" className="mr-5 hover:text-purple-600 cursor-pointer">Home</a>
