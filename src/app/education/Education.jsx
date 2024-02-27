@@ -5,10 +5,10 @@ import graduation from '../../../public/assets/graduation.svg';
 function Education() {
   return (
     <div>
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font" id="education">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-purple-600">Education</h1>
+    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-purple-600">Education</h1>
       <Image alt="feature" className="object-cover object-center h-full w-full" src={graduation} />
     </div>
     <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">

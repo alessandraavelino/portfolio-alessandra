@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import working from '../../../public/assets/working.svg';
-
+import { FaCookie, FaCar } from "react-icons/fa";
+import { IoCode } from "react-icons/io5";
+import { TbLetterR } from "react-icons/tb";
 
 function Experiences() {
   return (
     <div>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" id="experiences">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-purple-600">Experiences</h1>
           <div className="flex flex-wrap w-full">
@@ -17,17 +19,7 @@ function Experiences() {
                   <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-600 inline-flex items-center justify-center text-white relative z-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
+                <TbLetterR />
                 </div>
                 <div className="flex-grow pl-4">
                   <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -43,17 +35,7 @@ function Experiences() {
                   <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-600 inline-flex items-center justify-center text-white relative z-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
+                <FaCar />
                 </div>
                 <div className="flex-grow pl-4">
                   <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -69,18 +51,7 @@ function Experiences() {
                   <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-600 inline-flex items-center justify-center text-white relative z-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="12" cy="5" r="3"></circle>
-                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                  </svg>
+                <IoCode />
                 </div>
                 <div className="flex-grow pl-4">
                   <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
@@ -96,18 +67,7 @@ function Experiences() {
                   <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-600 inline-flex items-center justify-center text-white relative z-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
+                <FaCookie />
                 </div>
                 <div className="flex-grow pl-4">
                   <h2 className="font-semibold title-font text-lg text-gray-900 mb-1 tracking-wider">
