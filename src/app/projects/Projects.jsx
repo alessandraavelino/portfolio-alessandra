@@ -4,6 +4,7 @@ import projeto1 from "../../../public/assets/projeto1.svg";
 import projeto2 from "../../../public/assets/projeto2.svg";
 import projeto3 from "../../../public/assets/projeto3.svg";
 import projeto4 from "../../../public/assets/projeto4.svg";
+import projeto5 from "../../../public/assets/projeto5.svg";
 
 function Projects() {
   return (
@@ -158,6 +159,47 @@ function Projects() {
                   </h1>
                   <p className="leading-relaxed mb-3">
                     Page with informations and menu of Pizzaria.
+                  </p>
+                  <div className="flex items-center flex-wrap ">
+                    <a
+                      className="text-purple-600 inline-flex items-center md:mb-2 lg:mb-0"
+                      href="https://next-pizzarias.vercel.app"
+                      target="_blank"
+                    >
+                      View Project
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3">
+              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <Image
+                  className="lg:h-480 md:h-360 w-full object-cover object-center"
+                  src={projeto5}
+                  alt="blog"
+                />
+                <div className="p-6">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                    WEBSITE
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    SongSlicer
+                  </h1>
+                  <p className="leading-relaxed mb-3">
+                    Youtube Downloader in mp3 or mp4.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <a
